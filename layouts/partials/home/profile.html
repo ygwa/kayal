@@ -13,6 +13,11 @@
   </div>
 {{ end }}
 
+{{/* description */}}
+{{ with .Site.Params.homepage.profile.description }}
+  <div class="description">{{ . | markdownify }}</div>
+{{ end }}
+
 {{/* Content from _index.html */}}
 {{ .Content }}
 

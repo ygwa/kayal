@@ -846,6 +846,10 @@ pre code::-webkit-scrollbar-thumb:hover {
   font-size: 1.05em;
 }
 
+.description {
+  font-size: 0.9em;
+}
+
 .side-menu {
   display: flex;
 }
